@@ -24,3 +24,39 @@ Outro aspecto que exige atenção especial é o dimensionamento adequado dos rec
 Ao configurar e testar um banco de dados SQL na nuvem, é necessário seguir alguns passos fundamentais. Primeiramente, é preciso ter uma assinatura ativa no serviço de nuvem escolhido. Em seguida, deve-se definir o nome do banco de dados e escolher ou criar um servidor para hospedá-lo. A localização geográfica do servidor também é importante, pois influencia a latência e a conformidade com as normas de proteção de dados.
 
 Outro ponto essencial é configurar o método de autenticação para o banco de dados, garantindo a segurança no acesso. Além disso, é recomendado definir um modelo de redundância para assegurar a disponibilidade e a recuperação de dados em caso de falhas. Por fim, a ferramenta de cálculo do portal da nuvem geralmente exibirá uma estimativa detalhada do custo mensal associado ao uso desses recursos, permitindo um planejamento financeiro adequado.
+
+## Tipos de Serviço de Nuvem
+
+1. IaaS (Infrastructure as a Service) – Infraestrutura como Serviço
+Fornece recursos de computação sob demanda, como máquinas virtuais, redes e armazenamento. Ideal para usuários que precisam de controle sobre o ambiente, mas sem gerenciar hardware físico.
+
+Exemplos no Azure:
+
+- Azure Virtual Machines (Máquinas Virtuais)
+- Azure Virtual Network (Rede Virtual)
+- Azure Storage (Armazenamento)
+
+2. PaaS (Platform as a Service) – Plataforma como Serviço
+Oferece um ambiente de desenvolvimento pronto para uso, permitindo foco no código sem necessidade de gerenciar a infraestrutura subjacente.
+
+Exemplos no Azure:
+
+- Azure App Service (Hospedagem de aplicativos web)
+- Azure Functions (Execução de código serverless)
+- Azure SQL Database (Banco de dados gerenciado)
+
+3. SaaS (Software as a Service) – Software como Serviço
+Fornece aplicações completas baseadas na nuvem, acessíveis pela internet, sem necessidade de instalação ou manutenção.
+
+Exemplos no Azure:
+
+- Microsoft 365 (Pacote de produtividade online)
+- Azure DevOps (Ferramentas para desenvolvimento e CI/CD)
+- Power BI (Análise de dados e visualizações)
+
+4. FaaS (Function as a Service) – Função como Serviço
+Modelo de computação serverless que executa funções sob demanda, cobrando apenas pelo tempo de execução.
+🔹 Exemplo no Azure:
+
+- Azure Functions
+Azure também oferece serviços avançados como AI/ML (Inteligência Artificial e Machine Learning), IoT (Internet das Coisas) e Segurança na Nuvem.
