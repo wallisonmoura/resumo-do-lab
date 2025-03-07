@@ -56,7 +56,33 @@ Exemplos no Azure:
 
 4. FaaS (Function as a Service) – Função como Serviço
 Modelo de computação serverless que executa funções sob demanda, cobrando apenas pelo tempo de execução.
-🔹 Exemplo no Azure:
+Exemplo no Azure:
 
 - Azure Functions
 Azure também oferece serviços avançados como AI/ML (Inteligência Artificial e Machine Learning), IoT (Internet das Coisas) e Segurança na Nuvem.
+
+## Configurando Recursos e Dimensionamento em Máquinas Virtuais na Azure
+Ao criar uma Máquina Virtual (VM) na Azure, é essencial configurar corretamente os recursos para otimizar desempenho e custos.
+
+1. Escolha do Tipo de VM
+A Azure oferece diferentes séries de VMs, cada uma otimizada para casos específicos:
+- B-series – Econômicas para cargas de trabalho leves.
+- D-series – Uso geral, bom equilíbrio entre CPU, memória e armazenamento.
+- E-series – Otimizada para cargas intensivas de memória.
+- F-series – Alta performance de CPU, ideal para computação intensiva.
+- N-series – Com GPUs para workloads de IA e gráficos avançados.
+
+2. Configuração de Recursos
+- CPU e Memória: Definidos pelo tamanho da VM escolhida.
+- Armazenamento: Uso do Azure Managed Disks (HDD, SSD Standard ou SSD Premium).
+- Rede: Configuração de IP público, VNET e regras de segurança (NSG).
+
+3. Dimensionamento (Scaling)
+A Azure permite ajustar os recursos conforme a demanda:
+- ✅ Scale Up (Vertical) – Aumenta o tamanho da VM (mais CPU/RAM).
+- ✅ Scale Out (Horizontal) – Adiciona mais instâncias da VM (usando Azure Virtual Machine Scale Sets).
+
+4. Otimização de Custos
+- 💰 Reserved Instances (RI) – Planos de 1 ou 3 anos com desconto.
+- 💰 Spot VMs – Custo reduzido para workloads não críticos.
+- 💰 Auto Scaling – Ajusta automaticamente o número de VMs conforme a carga.
